@@ -545,6 +545,128 @@
 #print(sorted(food_dictionary.values()))
 
 #74
-colours_list = ["Red", "Blue", "Pink", "Purple", "Orange", "Yellow", "Green", "Brown", "Black", "White"]
-startnum = int(input("Enter a starting number between 0 and 4: "))
-endnum = int(input("Enter an ending number between 5 and 9: "))
+#colours_list = ["Red", "Blue", "Pink", "Purple", "Orange", "Yellow", "Green", "Brown", "Black", "White"]
+#startnum = int(input("Enter a starting number between 0 and 4: "))
+#endnum = int(input("Enter an ending number between 5 and 9: "))
+#print(colours_list[startnum:endnum])
+
+#75
+#number_list = [123, 442, 982, 326]
+#for i in number_list:
+  #print(i)
+#usernum = int(input("Enter a three digit number: "))
+#if usernum in number_list:
+  #print(number_list.index(usernum))
+#else:
+  #print("That is not in the list")
+
+#76
+#name1 = input("Who do you want to invite to your party? ")
+#name2 = input("Invite a second person to your party: ")
+#name3 = input("Invite a third person to your party: ")
+#guest_list = [name1, name2, name3]
+#again = input("Do you want to invite another person to your party? y/n ")
+#while again == "y":
+  #guest_list.append(input("Who do you want to invite? "))
+  #again = input("Do you want to invite anoyher person to your party? y/n ")
+#print("You have invited", len(guest_list), "people to your party")
+
+#77
+#name1 = input("Who do you want to invite to your party? ")
+#name2 = input("Invite a second person to your party: ")
+#name3 = input("Invite a third person to your party: ")
+#guest_list = [name1, name2, name3]
+#again = input("Do you want to invite another person to your party? y/n ")
+#while again == "y":
+  #guest_list.append(input("Who do you want to invite? "))
+  #again = input("Do you want to invite anoyher person to your party? y/n ")#print("You have invited", len(guest_list), "people to your party")
+#print(guest_list)
+#nameselection = input("Enter a name on the list: ")
+#print(guest_list.index(nameselection))
+#remove = input("Do you still want that person to come to your party?: ")
+#if remove == "no":
+  #guest_list.remove(nameselection)
+  #print(guest_list)
+
+#78
+#programs_list = ["Breaking bad", "Better Call Saul", "The Big Bang", "AmongusTV"]
+#print(programs_list)
+#newshow = input("Enter another show: ")
+#position = int(input("Enter the position on the index: "))
+#programs_list.insert(position, newshow)
+#print(programs_list)
+
+#79
+#nums = []
+#for i in range(0,3):
+  #num = input("Enter a number: ")
+  #nums.append(num)
+  #print(nums)
+#keepitem = input("Do you want to keep your last number saved? ")
+#if keepitem == "no":
+  #nums.remove(num)
+#print(nums)
+
+#80
+#first_name = input("Enter your first name: ")
+#print("Your first name has", len(first_name), "characters")
+#surname = input("Enter your surname: ")
+#print("Your surname has", len(surname), "characters")
+#print("Your full name is", first_name, surname)
+#full_name = first_name +" " + surname
+#letters = len(full_name)
+#print("Your full name has", letters, "characters")
+
+#81
+#subject = input("Enter your favorite school subject: ")
+#for letter in subject:
+  #print(letter, end="-")
+
+#82
+#poem = ("What is the world, O soldiers? "
+#"It is I: "
+#"I, this incessant snow, "
+#"This northern sky; "
+#"Soldiers, this solitude through which we go "
+#"is I.")
+#print(poem)
+#start_point = int(input("Enter a starting number: "))
+#end_point = int(input("Enter an ending number: "))
+#print(poem[start_point:end_point])
+
+#83
+#word = input("Type any word in upper case: ")
+#retry = False
+#if word.isupper():
+  #print("Thank you")
+#else:
+  #retry = True
+#while retry == True:
+  #word = input("Try again: ")
+  #if word.isupper():
+    #retry = False
+    #print("Thank you")
+
+#84
+#postcode = input("Enter your postcode: ")
+#scode = postcode[0:2]
+#scode = scode.upper()
+#print(scode)
+
+#85
+#name = input("Enter your name: ")
+#count = 0
+#for x in name:
+  #if x in name == "a" or x ==  "e" or x == "i" or x == "o" or x == "u":
+    #count = count + 1
+#print("You have", count, "vowels in your name")
+
+#86
+#password = input("Choose a password: ")
+#confirm = input("Confirm your password: ")
+#if password == confirm:
+  #print("Thank you")
+#elif password != confirm and password.lower() == confirm.lower():
+  #print("Passwords must be in the same case")
+#else:
+  #print("Incorrect")
