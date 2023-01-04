@@ -670,3 +670,75 @@
   #print("Passwords must be in the same case")
 #else:
   #print("Incorrect")
+#87
+#word = input("Enter a word: ")
+#length = len(word)
+#num = 1
+#for x in word:
+  #position = length - num
+  #letter = word[position]
+  #print(letter)
+  #num = num+1
+
+#88
+#from array import *
+
+#nums = array("i", [])
+
+#for i in range (0,5):
+  #num = int(input("Enter a number: "))
+  #nums.append(num)
+
+#nums = sorted(nums)
+#nums.reverse()
+
+#print(nums)
+
+#89
+#from array import *
+#import random
+#nums = array("i", [])
+#for i in range (0,5):
+  #numbers = random.randint(0,100)
+  #nums.append(numbers)
+#for i in nums:
+  #print(i)
+
+#90
+#from array import *
+#nums = array("i", [])
+#while len(nums) < 5:
+  #num = int(input("Enter a number: "))
+  #if num > 10 and num < 20:
+    #nums.append(num)
+  #else:
+    #print("Outside the range")
+#for i in nums:
+  #print(i)
+
+#91
+#from array import *
+#nums = array("i", [2, 4, 2, 9, 48])
+#print(nums)
+#usernum = int(input("Enter one of the numbers: "))
+#if nums.count(usernum) == 2:
+  #print(usernum, "is displaid two times")
+#else:
+  #print(usernum, "is displayed one time")
+
+#92
+#from array import *
+#import random
+
+#userarray = array("i", [])
+#for i in range(0,3):
+  #num1 = int(input("Enter a number: "))
+  #userarray.append(num1)
+#randomarray = array("i", [])
+#for i in range(0,5):
+  #num2 = random.randint(0,100)
+  #randomarray.append(num2)
+#num1.extend(num2)
+#num1 = sorted(num1)
+#for i in num1:
+  #print(i)
