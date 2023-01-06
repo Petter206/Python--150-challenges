@@ -742,3 +742,58 @@
 #num1 = sorted(num1)
 #for i in num1:
   #print(i)
+   
+#95
+#from array import *
+#nums = array("f", [45.26, 92.22, 11.4, 66.66, 28.37])
+#retry = True
+#while retry == True:
+  #usernum = int(input("Enter a number between 2 and 5: "))
+  #if usernum > 5 or usernum < 2:
+    #retry = True
+  #else:
+    #retry == False
+#for i in nums (0,5):
+  #ans =nums[i]/usernum
+  #print(round(ans,2))
+
+#96
+#list = [[2, 5, 8], [3, 7, 4], [1, 6, 9], [4, 2, 0]]
+
+#97
+#list = [[2, 5, 8], [3, 7, 4], [1, 6, 9], [4, 2, 0]]
+#row = int(input("Select a row from the list: "))
+#column = int(input("Select a column from the list: "))
+#print(list[row][column])
+
+#98
+#list = [[2, 5, 8], [3, 7, 4], [1, 6, 9], [4, 2, 0]]
+#row = int(input("Which row do you want displayed? "))
+#print(list[row])
+#newvalue = int(input("Enter a new value: "))
+#list[row].append(newvalue)
+#print(list[row])
+
+#99
+#list = [[2, 5, 8], [3, 7, 4], [1, 6, 9], [4, 2, 0]]
+#row = int(input("Which row do you want displayed? "))
+#print(list[row])
+#column = int(input("Which column do you want displayed? "))
+#print(list[row][column])
+#change = input("Do you want to change the value? y/n ")
+#if change == "y":
+  #newvalue = int(input("Enter a new value: "))
+  #list[row][column] = newvalue
+#print(list[row])
+
+#100
+#sales = {"John":{"N":3056, "S":8463, "E":8441, "W":2694}, "Tom":{"N":4832, "S":6786, "E":4737, "W":3612}, "Anne":{"N":5239, "S":4802, "E":5828, "W":1859}, "Fiona":{"N":3904, "S":3645, "E":8821, "W":2451}}
+
+#101
+#sales = {"John":{"N":3056, "S":8463, "E":8441, "W":2694}, "Tom":{"N":4832, "S":6786, "E":4737, "W":3612}, "Anne":{"N":5239, "S":4802, "E":5828, "W":1859}, "Fiona":{"N":3904, "S":3645, "E":8821, "W":2451}}
+#name = input("Enter a name: ")
+#region = input("Enter a region: ")
+#print(sales[name][region])
+#alteration = int(input("Enter the new sales figure: "))
+#sales[name][region] = alteration
+#print(sales[name])
