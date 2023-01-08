@@ -797,3 +797,158 @@
 #alteration = int(input("Enter the new sales figure: "))
 #sales[name][region] = alteration
 #print(sales[name])
+
+#102
+#info = {}
+#for i in range (0,4):
+  #name = input("Enter name: ")
+  #age = int(input("Enter age: "))
+  #shoesize = int(input("Enter sho size: "))
+  #info[name] = {"Age":age, "Shoe size":shoesize}
+#chosenname = input("Choose a name from the list: ")
+#print(info[chosenname])
+
+#103
+#info = {}
+#for i in range (0,4):
+  #name = input("Enter name: ")
+  #age = int(input("Enter age: "))
+  #shoesize = int(input("Enter sho size: "))
+  #info[name] = {"Age":age, "Shoe size":shoesize}
+#chosenname = input("Choose a name from the list: ")
+#for name in info:
+  #print((name), info[name]["Age"])
+
+#104
+#info = {}
+#for i in range (0,4):
+  #name = input("Enter name: ")
+  #age = int(input("Enter age: "))
+  #shoesize = int(input("Enter sho size: "))
+  #info[name] = {"Age":age, "Shoe size":shoesize}
+#delete = input("Enter the name of a person you want to remove from the list: ")
+#del info[delete]
+#for name in info:
+  #print((name), info[name]["Age", info[name], ["Shoe size"]])
+
+#105
+#file = open("Numbers.txt", "w")
+#file.write("5, ")
+#file.write("2, ")
+#file.write("16, ")
+#file.write("99, ")
+#file.write("36, ")
+#file.close
+
+#106
+#file = open("Names.txt", "w")
+#file.write("Grassman\n")
+#file.write("Man Milk\n")
+#file.write("Mr Bean\n")
+#file.write("Tableman\n")
+#file.write("Dingos\n")
+#file.close()
+
+#107
+#file = open("Names.txt", "r")
+#print(file.read())
+#file.close()
+
+#108
+#file = open("Names.txt", "a")
+#name = input("Enter a name: ")
+#file.write(name + "\n")
+#file.close
+#file = open("Names.txt", "r")
+#print(file.read())
+#file.close()
+
+#109
+#print("1) Create a new file")
+#print("2) Display the file")
+#print("3) Add a new item to the file")
+#selection = int(input("Make a selection 1, 2 or 3: "))
+#if selection == 1:
+  #subject = input("Enter a school subject: ")
+  #file = open("Subject.txt", "w")
+  #file.write(subject + "\n")
+  #file.close()
+#elif selection == 2:
+  #file = open("Subject.txt", "r")
+  #print(file.read())
+  #file.close()
+#elif selection == 3:
+  #subject = input("Enter a new subject: ")
+  #file = open("Subject.txt", "a")
+  #file.write(subject + "\n")
+  #file.close()
+  #file = open("Subject.txt", "r")
+  #print(file.read())
+  #file.close()
+#else:
+  #print("Error 69420, Invalid option")
+
+#110
+#file = open("Names.txt", "r")
+#print(file.read())
+#name = input("Enter one of the names: ")
+#name = name + "\n"
+#for row in file:
+  #if row != name:
+    #file = open("Names2.txt", "a")
+    #newrecord = row
+    #file.write(newrecord)
+    #file.close()
+#file.close()
+
+#111
+#import csv
+#file = open("Books.csv", "w")
+#newrecord = "To kill a mockingbird, Harper Lee, 1960\n"
+#file.write(str(newrecord))
+#newrecord = "A brief history of time, Stephen Hawking, 1988\n"
+#file.write(str(newrecord))
+#newrecord = "The great gatsby, F.Scott Fitzgerald, 1922\n"
+#file.write(str(newrecord))
+#newrecord = "The man who mistook his wife for a hat, Oliver Sacks, 1985\n"
+#file.write(str(newrecord))
+#newrecord = "Pride and prejudice, Jane Austen, 1813\n"
+#file.write(str(newrecord))
+#file.close()
+
+#112
+#import csv
+#Book = input("Enter a book: ")
+#Author = input("Enter the name of the author: ")
+#Year = input("Enter the year the book was written: ")
+#newrecord = Book + " " + Author + " " + Year + "\n"
+#file = open("Books.csv", "a")
+#file.write(newrecord)
+#file.close()
+
+#file = open("Books.csv", "r")
+#for row in file:
+  #print(row)
+#file.close()
+
+#113
+#import csv
+#file = open("Books.csv", "a")
+#times = int(input("How many records do you want to add to the list? "))
+#for i in range (0,times):
+  #Book = input("Enter a book: ")
+  #Author = input("Enter the name of the author: ")
+  #Year = input("Enter the year the book was written: ")
+  #newrecord = Book + " " + Author + " " + Year + "\n"
+  #file.write(newrecord)
+#file.close()
+#file = open("Books.csv", "r")
+#count = 0
+#search = input("Enter an author: ")
+#reader = csv.reader(file)
+#for row in file:
+  #if search in str(row):
+    #print(row)
+    #count = count + 1
+#if count == 0:
+  #print("Error, author is not in the file")
